@@ -14,7 +14,7 @@
             <nav>
                 <a href="cardapio.html" id="btncardapio" class="btnnav">Cardápio</a>
                 <a href="sobre.html" id="btnsobre" class="btnnav">Sobre</a>
-                <a href="reservas.html" id="btnreservas" class="btnnav">Reservas</a>
+                <a href="index.html" id="btnreservas" class="btnnav">Reservas</a>
             </nav>
         </header>
         <main>
@@ -27,16 +27,72 @@
                     <input type="text" id="nome" placeholder="Ex: Negoney da silva">
                     <br>
 
-                    <label for="qteqd">Quantas Pessoas e Quando</label>
+                    <label for="email">Seu Email</label>
                     <br>
-                    <input type="text" id="qteqd" placeholder="Ex: 5 pessoas, dia 15/09/2026.">
+                    <input type="email" id="email" placeholder="Ex: negoney@gmail.com">
+                    <br>
+
+                    <label for="telef">Seu Número de Telefone</label>
+                    <br>
+                    <input type="tel" id="telef" placeholder="Ex: (99) 99999-9999">
+                    <br>
+
+                    <h3>Qual meio de contato você quer ser notificado?</h3>
+                    <label for="radio-email"><input type="radio" id="radio-email" class="notif" name="notif" value="1" checked> Email</label>
+                    <br>
+                    <label for="radio-telef"><input type="radio" id="radio-telef" class="notif" name="notif" value="2"> Telefone</label>
+                    <br>
+
+                    <label for="qt">Quantas Pessoas</label>
+                    <br>
+                    <input type="number" id="qt" placeholder="Ex: 5">
+                    <br>
+
+                    <label for="qdd">Quando</label>
+                    <br>
+                    <input type="date" id="qdd" placeholder="Ex: XX/XX/XX">
+                    <input type="time" id="qdt" placeholder="Ex: XX:XX">
                     <br>
 
                     <button type="submit">Reservar</button>
                 </form>
-                <section id="sect-msg"> 
-                    <p id="msg">The Mr. NegoNey, dono da cafeteria, falou para você preencher todos os campos</p>
-                </section>
+                <p id="msg">The Mr. NegoNey, dono da cafeteria, falou para você preencher todos os campos</p>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Horário</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda-feira</td>
+                            <td>7h - 21h</td>
+                        </tr>
+                        <tr>
+                            <td>Terça-feira</td>
+                            <td>7h - 21h</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta-feira</td>
+                            <td>7h - 21h</td>
+                        </tr>
+                        <tr>
+                            <td>Quinta-feira</td>
+                            <td>7h - 21h</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta-feira</td>
+                            <td>7h - 21h</td>
+                        </tr>
+                        <tr>
+                            <td>Sábado</td>
+                            <td>7h - 13h</td>
+                        </tr>
+                    </tbody>
+                </table>
+
                 <section id="sect-reservas">
                     <h2 id="listaRes">Reservas reservadas:</h2>
 
