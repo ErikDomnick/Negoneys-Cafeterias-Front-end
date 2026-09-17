@@ -154,6 +154,7 @@ img{
 
 table {
     margin-top: 15px;
+    margin-bottom: 15px;
     width: 20%;
     border-collapse: collapse;
 }
@@ -170,6 +171,11 @@ th {
 
 td{
     background-color: rgb(255, 246, 234);
+}
+
+fieldset{
+    border: none;
+
 }
 
 ul.lista li {

@@ -1,8 +1,12 @@
 const forms = document.getElementById('forms');
 const nome = document.getElementById('nome');
-const qteqd = document.getElementById('qteqd');
-const lista = document.getElementById('lista');
-const msg = document.getElementById('msg');
+const email = document.getElementById('email');
+const email = document.getElementById('telef');
+const email = document.getElementById('email');
+const email = document.getElementById('qt');
+const email = document.getElementById('qdd');
+const lista = document.getElementById('qdt');
+const msg = document.getElementById('msgErro');
 const listaRes = document.getElementById('listaRes');
 
 let array = []; //lista la
